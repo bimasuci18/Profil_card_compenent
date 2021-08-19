@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: block;
+  font-family: "Kumbh Sans", sans-serif;
+  background-image: url(/images/bg-pattern-bottom.svg), url(/images/bg-pattern-top);
+  background-repeat: no-repeat;
+  background-position: left 50vw top 50vh, right 50vw bottom 50vh;
+  color: #000000;
+  background-color: hsl(185, 75%, 39%);
+}
+.container_car {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  height: auto;
+  overflow: hidden;
+  margin: 10rem auto;
+  max-width: 350px;
+  border-radius: 20px;
+}
+.profile_img {
+  color: #000000;
+  background: #ffff;
+  margin: 0 0 20px;
+}
+.profile_img img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin: -50px 0px 0px;
+  border: 7px solid white;
+}
+.profile_info {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  font-family: inherit;
+}
+h1 span {
+  color: #969696;
+  font-weight: 350;
+  margin-left: 8px;
+}
+h2 {
+  font-size: 1.1rem;
+  color: #969696;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: inherit;
+}
+.row {
+  display: flex;
+  padding: 0.9em;
+  margin: 2px;
+  border-top: 1px solid grey;
+  width: 100%;
+  padding-top: 3px;
+  justify-content: center;
+}
+.col {
+  display: inline-block;
+  font-family: inherit;
+  align-items: center;
+  padding: 0.8em;
+  text-align: center;
+}
+.col h3 {
+  font-weight: bold;
+}
+.col h4 {
+  text-align: center;
+  color: #969696;
+  font-size: 0.9rem;
+}
